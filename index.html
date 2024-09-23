@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta name="google-site-verification" content="lGy6DHFNzHQ7BSbcEmRn_SVd52HKoVTXeELwHSzGjbU" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gabriel Leno ◦ Portfólio</title>
+  <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet" />
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="./assets/css/main.css" />
+</head>
+
+<body>
+  <header class="menu">
+    <nav>
+      <a href="#home"><img src="./assets/img/logo.png" id="logo" class="logo"></a>
+      <i class="fas fa-bars" id="ham-menu"></i>
+      <ul id="nav-bar">
+        <li>
+          <a href="#redirecionamento" class="scroll" style="font-size: 20px;">Sobre mim</a>
+        </li>
+        <li>
+          <a href="#skills" style="    font-size: 20px;">Habilidades</a>
+        </li>
+        <li>
+          <a href="#projetos" style="    font-size: 20px;">Projetos</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <section id="home">
+    <div class="page-inicial">
+      <div class="parte-texto">
+        <div class="alert-container" id="alert">
+          Pressione Para Copiar Email!
+          <span class="close-btn" onclick="fecharAlerta()">×</span>
+        </div>
+        <h1 id="meu-nome">Gabriel Leno</h1>
+        <h2 id="meu-cargo">Desenvolvedor Full Stack</h2>
+        <div class="social-icons">
+          <a target="_blank"
+            href="https://wa.me/5561996529012?text=Ol%C3%A1%2C+Gabriel+Leno%2C+estou+entrando+em+contato+porque+vi+seu+portf%C3%B3lio+e+gostei+muito."><img
+              src="./assets/img/icon/whatsapp.png" alt="discord-icon"></a>
+          <a target="_blank" href="https://www.linkedin.com/in/gabriel-leno-692ba1256/"><img
+              src="./assets/img/icon/linkedin (1).png" alt="linkedin-icon"></a>
+          <a target="_blank" href="https://github.com/GxbrielLeno"><img src="./assets/img/icon/github.png"
+              alt="github-icon"></a>
+          <a id="btnCopiarTexto"><img src="./assets/img/icon/o-email.png"
+              alt="email-icon"></a>
+        </div>
+        <div class="setinha-pra-baixo">
+          <img src="./assets/img/icon/seta-para-baixo.png" alt="seta-baixo">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="sobre-mim">
+    <div id="redirecionamento">
+
+
+      <div class="sobre-mim">
+        <div class="foto-pessoal" style="text-align: center;">
+          <img src="./assets/img/foto_gabriel.jpg" alt="img-teste" id="minha-foto">
+        </div>
+        <div class="descricao-sobre-mim">
+          <h1 style="color: white;" class="meu-nome">Gabriel Leno</h1>
+          <h2 style="color:#ff2d2d" class="meu-cargo">Desenvolvedor Web</h2>
+          <p class="minha-desc">Olá! 👋 Me chamo Gabriel Leno, e sou um desenvolvedor web apaixonado por jogos. Minha jornada na programação começou aos 12 anos, quando me encantei por GTA San Andreas. Minha curiosidade me levou a modificar o jogo utilizando a biblioteca CLEO para criar mods e scripts, e o ZModeler para modelar veículos e pedestres, marcando assim meus primeiros passos no desenvolvimento.
+            <span id="tres-pontos" style="display: block;">...</span>
+            <span id="btn-continuar-lendo" onclick="MostrarDescricao()">Continuar Lendo</span>
+            <span id='descricao-completa'>
+Após 6 anos de experiência utilizando diversas tecnologias para criar sites, aplicativos e jogos, conquistei minha primeira oportunidade profissional como jovem aprendiz na área de T.I. Durante esse período, aprofundei meus conhecimentos em programação e percebi o quanto ainda havia para aprender, o que me motivou a seguir estudando e evoluindo.
+
+Após 1 ano e meio como jovem aprendiz, fui efetivado como desenvolvedor, onde estou até hoje. Em meu trabalho atual, criei o site da empresa utilizando React no frontend e Node.js no backend, integrando a API da Iugu para processar pagamentos e automações. Além disso, desenvolvi um sistema de disparo de mensagens utilizando TypeScript, que é essencial para a comunicação interna e com clientes, otimizando diversos processos operacionais.
+
+Estou sempre buscando me atualizar com novas tecnologias e desafios. Meu próximo objetivo é aprender programação mobile, expandindo meu leque de habilidades e ampliando minha capacidade de criar soluções multiplataforma para projetos futuros. Além disso, estou sempre aberto a novos desafios e oportunidades que me permitam continuar crescendo profissionalmente. 😊
+            </span>
+            <span id="ler-menos" onclick="EsconderDescricao()">Ler Menos</span>
+            </span>
+          </p>
+        </div>
+      </div>
+      <div class="texto-skills" id="skills">
+        <h1 style="color:rgb(255, 255, 255)">Habilidades</h1>
+        <h2 style="font-weight: 300;">Linguagens nas quais tenho conhecimento</h2>
+        <p style="font-size: 15px!important">*/Mesmo tendo conhecimentos nessas linguagens, eu ainda as estudo./*</p>
+        <div class="skiils-linguagem">
+          <li>
+            <h3>React</h3>
+            <span class="bar"><span class="react"></span></span>
+          </li>
+          <li>
+            <h3>JavaScript</h3>
+            <span class="bar"><span class="javascript"></span></span>
+          </li>
+          <li>
+            <h3>Node</h3>
+            <span class="bar"><span class="node"></span></span>
+          </li>
+          <li>
+            <h3>Bootstrap</h3>
+            <span class="bar"><span class="node"></span></span>
+          </li>
+          <li>
+            <h3>Sass</h3>
+            <span class="bar"><span class="sass"></span></span>
+          </li>
+          <li>
+            <h3>MySQL</h3>
+            <span class="bar"><span class="mysql"></span></span>
+          </li>
+          <li>
+            <h3>C#</h3>
+            <span class="bar"><span class="mysql"></span></span>
+          </li>
+          <li>
+            <h3>TypeScript</h3>
+            <span class="bar"><span class="typescript"></span></span>
+          </li>
+          <li>
+        </div>
+      </div>
+      <div class="projetos" id="projetos">
+        <h1 style="font-size: 33px;">Projetos</h1>
+        <div class="todos_projetos">
+          <div class="projeto" style="border: 1px solid rgb(255, 58, 58);">
+            <div class="img-space-movies"></div>
+            <h3 style="font-size: 21px;font-weight: 100;">Automação WhatsApp</h3>
+            <p id="descricao-projeto">A automação no WhatsApp é um robô que envia mensagens para números de um arquivo CSV. Em testes, foram enviadas mais de 1500 mensagens para diferentes números :)            </p>
+            <div class="btns">
+              <a href="https://youtu.be/PV5chs5eRhM" target="_blank"><button>Visualiza Vídeo</button></a>
+              <a href="https://github.com/GxbrielLeno/Envio-Mensagem-WhatsApp" target="_blank"><button>Ver Código</button></a>
+            </div>
+          </div>
+          <div class="projeto" style="border: 1px solid rgb(0, 162, 255);">
+            <div class="img-hotel-palace"></div>
+            <h3 style="font-size: 23px;font-weight: 100;">Hotel Palace</h3>
+            <p id="descricao-projeto">O site apresenta imagens e descrições dos quartos, além de uma seção de reserva e um formulário de contato. Design responsivo e agradável.</p>
+            <div class="btns-hotel">
+              <a href="https://hotel-palace.netlify.app/" target="_blank"><button>Visualiza Projeto</button></a>
+              <a href="https://github.com/GxbrielLeno/hotel-palace-bootstrap" target="_blank"><button>Ver Código</button></a>
+            </div>
+          </div>
+          <div class="projeto" style="border: 1px solid #ff9900;">
+            <div class="img-upis"></div>
+            <h3 style="font-size: 23px;font-weight: 100;">Faculdades UPIS</h3>
+            <p id="descricao-projeto">Desenvolvi o site da Faculdade UPIS, onde disponibilizei informações sobre os cursos, preços e formas de pagamento, além de um formulário de cadastro para matrículas.</p>
+            <div class="btns-upis">
+              <a href="https://upis.br" target="_blank"><button>Visualiza Projeto</button></a>
+              <a><button onclick="mostrarAlerta()">Ver Código</button></a>
+            </div>
+          </div>
+        </div>
+        <a target="_blank" class="btn_ver_projetos" href="https://github.com/GxbrielLeno?tab=repositories"><button
+            class="bn53">Ver Mais
+            Projetos</button></a>
+      </div>
+    </div>
+    <footer style="margin-top: 25px;background-color: rgba(0, 0, 0, 0.171);padding: 10px;">
+      <p style="color:white;text-align: center;font-size: 13px;">Copyright © 2024 <label
+          style="color:rgb(65, 94, 255)">Gabriel Leno</label> Todos os direitos reservados.</p>
+    </footer>
+  </section>
+  <script src="./assets/js/javascript.js"></script>
+</body>
+
+</html>
