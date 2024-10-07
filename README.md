@@ -1,1 +1,1 @@
-[Clique para visualizar meu portfolio](https://gabriellenno.tech/](https://gxbrielleno.github.io/portfolio/))
+[Clique para visualizar meu portfolio](https://gxbrielleno.github.io/portfolio/)
