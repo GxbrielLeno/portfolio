@@ -78,10 +78,7 @@ ScrollReveal().reveal(".minha-desc", { delay: 800, reset: true });
 ScrollReveal().reveal("#minha-foto", { delay: 400, reset: true });
 ScrollReveal().reveal(".parte-texto", { delay: 400, reset: true });
 ScrollReveal().reveal(".texto-skills,.projetos", { delay: 400, reset: true });
-ScrollReveal().reveal(".skiils-linguagem,.todos_projetos,.btn_ver_projetos", {
-  delay: 800,
-  reset: true,
-});
+ScrollReveal().reveal(".skiils-linguagem,.todos_projetos,.btn_ver_projetos", { delay: 800,reset: true });
 
 function mostrarAlerta() {
   alert("Código privado.");
